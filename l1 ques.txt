@@ -1,0 +1,76 @@
+int a= "c";
+ascii value of c is directly assigned to c
+
+9 wrapper classes
+8 is primitive data types and 9th is void
+
+int a=0b1_0_1_1;
+binary literals
+0b representation to show forthcoming values are binary values
+output is 11
+
+String s=null;
+System.out.println(s.length());
+null pointer exception
+
+String s="hello";
+String s2=(String)s;
+System.out.println(s2); //hello 
+System.out.println(s.toString()); //hello
+
+class Sample extends String{}
+not possible because we cannot inherit final class
+
+String s=null;
+String s1=(String)s;
+System.out.println(s); //null
+
+String s="hello";
+String s1=new String("hello");
+String s2=s1;
+System.out.println(s==s1);  //false(check memory location0
+System.out.println(s==s2);  //false(check memory location0
+System.out.println(s1==s2);
+System.out.println(s.equals(s1));
+System.out.println(s.equals(s2));
+System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s2));
+
+String s="         hello welcome to cg";
+System.out.println(s.trim()); //embedded white space cannot be
+removed by trim method(dont take front space)
+
+useDelimiter
+
+Scanner s=new Scanner("hello world");
+System.out.println(s.next()); //hello
+
+final keyword can be applied for var, method, class
+
+can a constructor be final?
+
+what is a blank final var?
+
+
+
+class A{public final get(){sysout("hello")}
+}
+
+class B{
+@Override 
+public void get(){sysout("hi")}
+}
+
+class Test{
+main()
+{
+A obj=new A();
+obj.get();
+}  //hello
+
+
+super is keyword referrring to parent class
+
+b obj=new b();
+compilation err if u have only parameterized constr
+default constr will not be created
